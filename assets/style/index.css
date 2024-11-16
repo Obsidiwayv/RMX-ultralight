@@ -1,0 +1,88 @@
+@import url(../font/registry.css);
+
+body {
+    background-color: rgb(15, 15, 15);
+    color: white;
+}
+
+.padded {
+    padding-top: 10%;
+}
+
+.center {
+    justify-items: center;
+    text-align: center;
+}
+
+#heading {
+    font-family: "Proxon";
+    font-size: 300%;
+    color: white;
+}
+
+#heading2 {
+    font-family: "Proxon";
+    font-weight: 100;
+    font-size: 200%;
+    color: #6200ff;
+}
+
+#heading-selected {
+    font-family: "proxon";
+    font-size: 140%;
+    font-weight: lighter;
+    color: white;
+}
+
+#button {
+    background-color: unset;
+    border: solid;
+    border-color: #6200ff;
+    color: #6200ff;
+    padding: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-flex;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 5px;
+    align-items: center;
+}
+
+#red-button {
+    background-color: unset;
+    border: solid;
+    border-color: #ff5a5a;
+    color: #ff5a5a;
+    padding: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 5px;
+}
+
+#green-button {
+    background-color: unset;
+    border: solid;
+    border-color: #68ff5a;
+    color: #68ff5a;
+    padding: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 5px;
+}
+
+.icon {
+    margin-right: 8px; /* Space between the icon and the text */
+}
